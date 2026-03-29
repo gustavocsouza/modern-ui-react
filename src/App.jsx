@@ -1,0 +1,21 @@
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+import Testimonials from "./components/Testimonials"
+import Footer from "./components/Footer"
+import Features from "./components/Features"
+import Pricing from "./components/Pricing"
+
+function App() {
+  return (
+    <div className="min-h-screen bg-slate-950 text-white overflow-hidden">
+      <Navbar />
+      <Hero />
+      <Features />
+      <Testimonials />
+      <Pricing />
+      <Footer />
+    </div>
+  )
+}
+
+export default App
