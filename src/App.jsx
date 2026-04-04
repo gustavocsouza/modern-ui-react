@@ -11,8 +11,8 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
-      {/* <Testimonials />
       <Pricing />
+      {/* <Testimonials />
       <Footer /> */}
     </div>
   )
